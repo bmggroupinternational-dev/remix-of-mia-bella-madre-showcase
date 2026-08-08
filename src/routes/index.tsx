@@ -15,7 +15,8 @@ import {
 import { BookingForm } from "@/components/BookingForm";
 import { galleryImages, images } from "@/lib/content";
 import { site } from "@/lib/site";
-import heroImg from "@/assets/hero-exterior.jpg";
+import heroAsset from "@/assets/hero-exterior.jpg.asset.json";
+const heroImg = heroAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({

@@ -1,12 +1,22 @@
-import studioImg from "@/assets/studio.jpg";
-import oneBedImg from "@/assets/one-bedroom.jpg";
-import bathroomImg from "@/assets/bathroom.jpg";
-import kitchenImg from "@/assets/kitchen.jpg";
-import exteriorImg from "@/assets/hero-exterior.jpg";
-import playgroundImg from "@/assets/playground.jpg";
-import propertyImg from "@/assets/property.jpg";
-import detailImg from "@/assets/detail-1.jpg";
-import balconyImg from "@/assets/balcony.jpg";
+import studioAsset from "@/assets/studio.jpg.asset.json";
+import oneBedAsset from "@/assets/one-bedroom.jpg.asset.json";
+import bathroomAsset from "@/assets/bathroom.jpg.asset.json";
+import kitchenAsset from "@/assets/kitchen.jpg.asset.json";
+import exteriorAsset from "@/assets/hero-exterior.jpg.asset.json";
+import playgroundAsset from "@/assets/playground.jpg.asset.json";
+import propertyAsset from "@/assets/property.jpg.asset.json";
+import detailAsset from "@/assets/detail-1.jpg.asset.json";
+import balconyAsset from "@/assets/balcony.jpg.asset.json";
+
+const studioImg = studioAsset.url;
+const oneBedImg = oneBedAsset.url;
+const bathroomImg = bathroomAsset.url;
+const kitchenImg = kitchenAsset.url;
+const exteriorImg = exteriorAsset.url;
+const playgroundImg = playgroundAsset.url;
+const propertyImg = propertyAsset.url;
+const detailImg = detailAsset.url;
+const balconyImg = balconyAsset.url;
 
 export const images = {
   studio: studioImg,
