@@ -11,6 +11,14 @@ import studioKitchenetteAsset from "@/assets/studio-kitchenette.jpg.asset.json";
 import studioHobAsset from "@/assets/studio-hob.jpg.asset.json";
 import studioBathroomAsset from "@/assets/studio-bathroom.jpg.asset.json";
 import studioBathDetailAsset from "@/assets/studio-bath-detail.jpg.asset.json";
+import diningLoungeAsset from "@/assets/dining-lounge.jpg.asset.json";
+import receptionAsset from "@/assets/reception.jpg.asset.json";
+import decorVaseAsset from "@/assets/decor-vase.jpg.asset.json";
+import decorPlantAsset from "@/assets/decor-plant.jpg.asset.json";
+import decorPlant2Asset from "@/assets/decor-plant-2.jpg.asset.json";
+import bedroomTvAsset from "@/assets/bedroom-tv.jpg.asset.json";
+import windowViewAsset from "@/assets/window-view.jpg.asset.json";
+import bedDetailAsset from "@/assets/bed-detail.jpg.asset.json";
 
 const studioImg = studioAsset.url;
 const oneBedImg = oneBedAsset.url;
