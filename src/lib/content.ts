@@ -177,12 +177,12 @@ export const galleryImages: GalleryImage[] = [
   { src: bathroomImg, alt: "Bathroom vanity with backlit mirror and fresh towels", category: "Bathrooms" },
   { src: kitchenImg, alt: "Fully equipped modern apartment kitchen", category: "Kitchen" },
   { src: kitchenImg, alt: "Kitchen countertop with appliances and pendant lighting", category: "Kitchen" },
-  { src: exteriorImg, alt: "Mia Bella Madre Apartments exterior at golden hour", category: "Exterior" },
-  { src: propertyImg, alt: "Landscaped pathway on the apartment grounds", category: "Exterior" },
-  { src: playgroundImg, alt: "Children's playground in the garden of the property", category: "Playground" },
+  { src: exteriorImg, alt: "Mia Bella Madre Apartments illuminated at night under a full moon", category: "Exterior" },
+  { src: propertyImg, alt: "Apartment facade with glass balconies and tiled courtyard at dusk", category: "Exterior" },
+  { src: playgroundImg, alt: "Children's playground with slide and swings on the lawn", category: "Playground" },
   { src: playgroundImg, alt: "Green lawn and play area for families", category: "Playground" },
-  { src: propertyImg, alt: "Property grounds with the Uluguru mountains beyond", category: "Property" },
-  { src: exteriorImg, alt: "Illuminated balconies of the apartment building at dusk", category: "Property" },
+  { src: propertyImg, alt: "Tiled courtyard and colonnade of the property", category: "Property" },
+  { src: exteriorImg, alt: "Illuminated balconies of the apartment building at night", category: "Property" },
 ];
 
 export const testimonials = [
