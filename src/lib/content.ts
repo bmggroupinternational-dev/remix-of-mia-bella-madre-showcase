@@ -33,6 +33,14 @@ const studioKitchenetteImg = studioKitchenetteAsset.url;
 const studioHobImg = studioHobAsset.url;
 const studioBathroomImg = studioBathroomAsset.url;
 const studioBathDetailImg = studioBathDetailAsset.url;
+const diningLoungeImg = diningLoungeAsset.url;
+const receptionImg = receptionAsset.url;
+const decorVaseImg = decorVaseAsset.url;
+const decorPlantImg = decorPlantAsset.url;
+const decorPlant2Img = decorPlant2Asset.url;
+const bedroomTvImg = bedroomTvAsset.url;
+const windowViewImg = windowViewAsset.url;
+const bedDetailImg = bedDetailAsset.url;
 
 
 export const images = {
