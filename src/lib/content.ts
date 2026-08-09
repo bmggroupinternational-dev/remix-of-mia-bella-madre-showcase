@@ -189,6 +189,7 @@ export const galleryCategories = [
   "Exterior",
   "Playground",
   "Property",
+  "Interiors & Details",
 ] as const;
 
 export const galleryImages: GalleryImage[] = [
