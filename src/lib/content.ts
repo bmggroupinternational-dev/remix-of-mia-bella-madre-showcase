@@ -7,6 +7,10 @@ import playgroundAsset from "@/assets/playground.jpg.asset.json";
 import propertyAsset from "@/assets/property.jpg.asset.json";
 import detailAsset from "@/assets/detail-1.jpg.asset.json";
 import balconyAsset from "@/assets/balcony.jpg.asset.json";
+import studioKitchenetteAsset from "@/assets/studio-kitchenette.jpg.asset.json";
+import studioHobAsset from "@/assets/studio-hob.jpg.asset.json";
+import studioBathroomAsset from "@/assets/studio-bathroom.jpg.asset.json";
+import studioBathDetailAsset from "@/assets/studio-bath-detail.jpg.asset.json";
 
 const studioImg = studioAsset.url;
 const oneBedImg = oneBedAsset.url;
@@ -17,6 +21,11 @@ const playgroundImg = playgroundAsset.url;
 const propertyImg = propertyAsset.url;
 const detailImg = detailAsset.url;
 const balconyImg = balconyAsset.url;
+const studioKitchenetteImg = studioKitchenetteAsset.url;
+const studioHobImg = studioHobAsset.url;
+const studioBathroomImg = studioBathroomAsset.url;
+const studioBathDetailImg = studioBathDetailAsset.url;
+
 
 export const images = {
   studio: studioImg,
