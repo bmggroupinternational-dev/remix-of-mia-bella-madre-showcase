@@ -176,16 +176,18 @@ export const galleryCategories = [
 ] as const;
 
 export const galleryImages: GalleryImage[] = [
-  { src: studioImg, alt: "Studio apartment with king bed, wall-mounted TV and air conditioning", category: "Studio Apartments" },
-  { src: detailImg, alt: "Living area detail with walnut media unit and side tables", category: "Studio Apartments" },
-  { src: balconyImg, alt: "Open-plan kitchen and sofa beside a full-height window", category: "Studio Apartments" },
+  { src: studioImg, alt: "Studio apartment with king bed, wall-mounted TV and private balcony", category: "Studio Apartments" },
+  { src: studioKitchenetteImg, alt: "Studio kitchenette with walnut cabinetry, microwave and sink", category: "Studio Apartments" },
+  { src: studioHobImg, alt: "Studio kitchenette detail with gas hob and marble counter", category: "Studio Apartments" },
   { src: oneBedImg, alt: "One bedroom apartment living room with sofa, TV and glass coffee table", category: "One Bedroom Apartments" },
   { src: balconyImg, alt: "One bedroom apartment kitchen and lounge with garden view", category: "One Bedroom Apartments" },
-  { src: studioImg, alt: "One bedroom apartment bedroom with king bed and reading lamp", category: "One Bedroom Apartments" },
-  { src: bathroomImg, alt: "Marble bathroom with walk-in glass shower and vessel basin", category: "Bathrooms" },
-  { src: bathroomImg, alt: "Bathroom vanity with marble surround and mirror", category: "Bathrooms" },
+  { src: detailImg, alt: "One bedroom living area detail with walnut media unit", category: "One Bedroom Apartments" },
+  { src: studioBathroomImg, alt: "Marble bathroom with glass shower, bathtub and warm towels", category: "Bathrooms" },
+  { src: studioBathDetailImg, alt: "Bathtub and marble shower detail with amenities niche", category: "Bathrooms" },
+  { src: bathroomImg, alt: "One bedroom bathroom with walk-in shower and vessel basin", category: "Bathrooms" },
   { src: kitchenImg, alt: "Fully equipped kitchen with timber cabinetry and washing machine", category: "Kitchen" },
-  { src: kitchenImg, alt: "Kitchen countertop with hob, sink and cookware", category: "Kitchen" },
+  { src: studioKitchenetteImg, alt: "Compact studio kitchenette with cookware and glassware", category: "Kitchen" },
+
   { src: exteriorImg, alt: "Mia Bella Madre Apartments illuminated at night under a full moon", category: "Exterior" },
   { src: propertyImg, alt: "Apartment facade with glass balconies and tiled courtyard at dusk", category: "Exterior" },
   { src: playgroundImg, alt: "Children's playground with slide and swings on the lawn", category: "Playground" },
