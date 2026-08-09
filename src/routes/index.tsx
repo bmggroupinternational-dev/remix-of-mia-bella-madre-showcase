@@ -73,7 +73,7 @@ function Hero() {
       <motion.div style={{ y }} className="absolute inset-0 -z-10">
         <img
           src={heroImg}
-          alt="Mia Bella Madre Apartments exterior at golden hour in Msamvu, Morogoro"
+          alt="Mia Bella Madre Apartments illuminated at night in Msamvu, Morogoro"
           width={1920}
           height={1280}
           className="size-full scale-110 object-cover"
