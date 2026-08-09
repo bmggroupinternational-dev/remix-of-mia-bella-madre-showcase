@@ -44,7 +44,7 @@ export function Navbar() {
           </span>
           <span className="min-w-0">
             <span
-              className={`block truncate font-script text-base leading-tight sm:text-lg ${
+              className={`block truncate font-display text-base leading-tight sm:text-lg ${
                 solid ? "text-foreground" : "text-card"
               }`}
             >
