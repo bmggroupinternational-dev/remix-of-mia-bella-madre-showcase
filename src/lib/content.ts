@@ -11,6 +11,14 @@ import studioKitchenetteAsset from "@/assets/studio-kitchenette.jpg.asset.json";
 import studioHobAsset from "@/assets/studio-hob.jpg.asset.json";
 import studioBathroomAsset from "@/assets/studio-bathroom.jpg.asset.json";
 import studioBathDetailAsset from "@/assets/studio-bath-detail.jpg.asset.json";
+import diningLoungeAsset from "@/assets/dining-lounge.jpg.asset.json";
+import receptionAsset from "@/assets/reception.jpg.asset.json";
+import decorVaseAsset from "@/assets/decor-vase.jpg.asset.json";
+import decorPlantAsset from "@/assets/decor-plant.jpg.asset.json";
+import decorPlant2Asset from "@/assets/decor-plant-2.jpg.asset.json";
+import bedroomTvAsset from "@/assets/bedroom-tv.jpg.asset.json";
+import windowViewAsset from "@/assets/window-view.jpg.asset.json";
+import bedDetailAsset from "@/assets/bed-detail.jpg.asset.json";
 
 const studioImg = studioAsset.url;
 const oneBedImg = oneBedAsset.url;
@@ -25,6 +33,14 @@ const studioKitchenetteImg = studioKitchenetteAsset.url;
 const studioHobImg = studioHobAsset.url;
 const studioBathroomImg = studioBathroomAsset.url;
 const studioBathDetailImg = studioBathDetailAsset.url;
+const diningLoungeImg = diningLoungeAsset.url;
+const receptionImg = receptionAsset.url;
+const decorVaseImg = decorVaseAsset.url;
+const decorPlantImg = decorPlantAsset.url;
+const decorPlant2Img = decorPlant2Asset.url;
+const bedroomTvImg = bedroomTvAsset.url;
+const windowViewImg = windowViewAsset.url;
+const bedDetailImg = bedDetailAsset.url;
 
 
 export const images = {
@@ -173,6 +189,7 @@ export const galleryCategories = [
   "Exterior",
   "Playground",
   "Property",
+  "Interiors & Details",
 ] as const;
 
 export const galleryImages: GalleryImage[] = [
@@ -194,6 +211,14 @@ export const galleryImages: GalleryImage[] = [
   { src: playgroundImg, alt: "Green lawn and play area for families", category: "Playground" },
   { src: propertyImg, alt: "Tiled courtyard and colonnade of the property", category: "Property" },
   { src: exteriorImg, alt: "Illuminated balconies of the apartment building at night", category: "Property" },
+  { src: diningLoungeImg, alt: "Dining area with walnut tables, olive leather chairs and a crystal chandelier", category: "Property" },
+  { src: receptionImg, alt: "Reception desk with marble counter overlooking the dining lounge", category: "Property" },
+  { src: windowViewImg, alt: "Uluguru mountain and green field views from an apartment window", category: "Interiors & Details" },
+  { src: bedDetailImg, alt: "Crisp white linen and Mia Bella Madre welcome card on the bedside table", category: "Interiors & Details" },
+  { src: bedroomTvImg, alt: "Bedroom with wall-mounted TV, floating walnut console and lit display shelving", category: "Interiors & Details" },
+  { src: decorVaseImg, alt: "White ceramic vase with blossoms on a glass and walnut coffee table", category: "Interiors & Details" },
+  { src: decorPlantImg, alt: "Walnut media unit with reed diffuser and eucalyptus tree in a woven basket", category: "Interiors & Details" },
+  { src: decorPlant2Img, alt: "Living room corner with slatted panelling, eucalyptus tree and soft drapery", category: "Interiors & Details" },
 ];
 
 export const testimonials = [
