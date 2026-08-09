@@ -211,6 +211,14 @@ export const galleryImages: GalleryImage[] = [
   { src: playgroundImg, alt: "Green lawn and play area for families", category: "Playground" },
   { src: propertyImg, alt: "Tiled courtyard and colonnade of the property", category: "Property" },
   { src: exteriorImg, alt: "Illuminated balconies of the apartment building at night", category: "Property" },
+  { src: diningLoungeImg, alt: "Dining area with walnut tables, olive leather chairs and a crystal chandelier", category: "Property" },
+  { src: receptionImg, alt: "Reception desk with marble counter overlooking the dining lounge", category: "Property" },
+  { src: windowViewImg, alt: "Uluguru mountain and green field views from an apartment window", category: "Interiors & Details" },
+  { src: bedDetailImg, alt: "Crisp white linen and Mia Bella Madre welcome card on the bedside table", category: "Interiors & Details" },
+  { src: bedroomTvImg, alt: "Bedroom with wall-mounted TV, floating walnut console and lit display shelving", category: "Interiors & Details" },
+  { src: decorVaseImg, alt: "White ceramic vase with blossoms on a glass and walnut coffee table", category: "Interiors & Details" },
+  { src: decorPlantImg, alt: "Walnut media unit with reed diffuser and eucalyptus tree in a woven basket", category: "Interiors & Details" },
+  { src: decorPlant2Img, alt: "Living room corner with slatted panelling, eucalyptus tree and soft drapery", category: "Interiors & Details" },
 ];
 
 export const testimonials = [
