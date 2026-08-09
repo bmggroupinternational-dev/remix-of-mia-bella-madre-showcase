@@ -14,7 +14,7 @@ export function Footer() {
             >
               M
             </span>
-            <span className="font-display text-lg">Mia Bella Madre</span>
+            <span className="font-script text-lg">Mia Bella Madre</span>
           </div>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
             {site.tagline}. {site.counts.total} fully furnished apartments in{" "}
