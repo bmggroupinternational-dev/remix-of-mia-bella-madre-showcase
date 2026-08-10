@@ -114,7 +114,12 @@ function ContactForm() {
 
 function ContactPage() {
   const details = [
-    { Icon: Phone, label: "Phone", value: site.phoneDisplay, href: `tel:${site.phone}` },
+    ...site.phones.map((p, i) => ({
+      Icon: Phone,
+      label: i === 0 ? "Phone" : "Phone (alternative)",
+      value: p.display,
+      href: `tel:${p.tel}`,
+    })),
     {
       Icon: MessageCircle,
       label: "WhatsApp",
@@ -126,6 +131,7 @@ function ContactPage() {
       Icon: MapPin,
       label: "Location",
       value: `${site.address.area}, ${site.address.city}, ${site.address.country}`,
+      href: undefined as string | undefined,
     },
   ];
 
