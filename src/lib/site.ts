@@ -7,9 +7,13 @@ export const site = {
     city: "Morogoro",
     country: "Tanzania",
   },
-  phoneDisplay: "+255 754 000 000",
-  phone: "+255754000000",
-  whatsapp: "255754000000",
+  phones: [
+    { display: "+255 725 478 478", tel: "+255725478478", whatsapp: "255725478478" },
+    { display: "+255 797 672 678", tel: "+255797672678", whatsapp: "255797672678" },
+  ],
+  phoneDisplay: "+255 725 478 478",
+  phone: "+255725478478",
+  whatsapp: "255725478478",
   email: "stay@miabellamadre.co.tz",
   hours: [
     { label: "Reception", value: "Open 24 hours, 7 days a week" },
@@ -32,10 +36,8 @@ export function whatsappLink(message: string) {
 
 export const navLinks = [
   { to: "/", label: "Home" },
-  { to: "/apartments", label: "Apartments" },
-  { to: "/amenities", label: "Amenities" },
+  { to: "/apartments", label: "Apartments & Amenities" },
   { to: "/gallery", label: "Gallery" },
   { to: "/location", label: "Location" },
-  { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ] as const;
