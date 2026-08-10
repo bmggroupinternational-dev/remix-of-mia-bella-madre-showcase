@@ -1,8 +1,7 @@
-import { Link } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { icons } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
-import { SectionHeading } from "@/components/SectionHeading";
+import { BookNowButton } from "@/components/BookingModal";
 import { amenities, apartments, whyChooseUs, testimonials, images } from "@/lib/content";
 import { site } from "@/lib/site";
 
@@ -55,13 +54,7 @@ export function ApartmentCards() {
                 ))}
               </ul>
               <div className="mt-7 pt-1">
-                <Link
-                  to="/contact"
-                  hash="book"
-                  className="inline-flex min-h-11 items-center rounded-full bg-primary px-6 text-sm font-semibold text-primary-foreground shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-glow"
-                >
-                  Book Now
-                </Link>
+                <BookNowButton className="inline-flex min-h-11 items-center rounded-full bg-primary px-6 text-sm font-semibold text-primary-foreground shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-glow" />
               </div>
             </div>
           </article>
