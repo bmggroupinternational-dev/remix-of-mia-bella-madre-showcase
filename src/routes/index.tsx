@@ -13,6 +13,7 @@ import {
   WhyChooseUs,
 } from "@/components/sections";
 import { BookingForm } from "@/components/BookingForm";
+import { BookNowButton } from "@/components/BookingModal";
 import { galleryImages, images } from "@/lib/content";
 import { site } from "@/lib/site";
 import heroAsset from "@/assets/hero-exterior.jpg.asset.json";
@@ -61,6 +62,33 @@ export const Route = createFileRoute("/")({
   }),
   component: Home,
 });
+
+const pillars = [
+  {
+    title: "Luxury",
+    body: "Considered materials, warm lighting and furniture chosen for how it feels, not only how it looks.",
+  },
+  {
+    title: "Privacy",
+    body: "Your own front door, your own kitchen, your own rhythm — with service that stays discreet.",
+  },
+  {
+    title: "Comfort",
+    body: "King beds, quality linen, silent air conditioning and reliably hot water, every single day.",
+  },
+  {
+    title: "Modern Finishes",
+    body: "Contemporary bathrooms, fitted kitchens and smart entertainment throughout the property.",
+  },
+  {
+    title: "Excellent Location",
+    body: "Msamvu places you minutes from Morogoro's centre, transport links and daily essentials.",
+  },
+  {
+    title: "Professional Hospitality",
+    body: "A trained resident team delivering internationally minded service with genuine Tanzanian warmth.",
+  },
+];
 
 function Hero() {
   const ref = useRef<HTMLElement>(null);
@@ -115,13 +143,9 @@ function Hero() {
           transition={{ duration: 0.9, delay: 0.6 }}
           className="mt-10 flex flex-wrap gap-3"
         >
-          <Link
-            to="/contact"
-            hash="book"
-            className="inline-flex min-h-12 items-center rounded-full bg-primary px-8 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5"
-          >
+          <BookNowButton className="inline-flex min-h-12 items-center rounded-full bg-primary px-8 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5">
             Book Your Stay
-          </Link>
+          </BookNowButton>
           <Link
             to="/apartments"
             className="inline-flex min-h-12 items-center rounded-full border border-card/40 bg-card/10 px-8 text-sm font-semibold text-card backdrop-blur transition-colors hover:bg-card/20"
@@ -139,7 +163,7 @@ function Home() {
     <>
       <Hero />
 
-      <section className="mx-auto max-w-7xl px-5 py-20 lg:px-8 lg:py-28">
+      <section id="about" className="mx-auto max-w-7xl scroll-mt-24 px-5 py-20 lg:px-8 lg:py-28">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <Reveal>
             <div className="zoom-media rounded-3xl border border-border shadow-soft">
@@ -164,12 +188,15 @@ function Home() {
                 storage and a hospitality team that anticipates rather than reacts. Whether you stay a
                 night or a season, you arrive to a home that is already looking after you.
               </p>
-              <Link
-                to="/about"
-                className="mt-7 inline-flex min-h-11 items-center rounded-full border border-border px-6 text-sm font-semibold transition-colors hover:border-primary hover:text-primary"
-              >
-                Our story
-              </Link>
+              <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
+                Guests arrive to a fully prepared apartment — beds made, kitchen stocked with the
+                essentials, WiFi connected — and settle in within minutes. Housekeeping visits daily,
+                security is present around the clock and our team is a phone call away, whether you
+                need an airport transfer or a recommendation for dinner in town.
+              </p>
+              <BookNowButton className="mt-7 inline-flex min-h-11 items-center rounded-full border border-border px-6 text-sm font-semibold transition-colors hover:border-primary hover:text-primary">
+                Enquire about a stay
+              </BookNowButton>
             </Reveal>
           </div>
         </div>
@@ -177,6 +204,23 @@ function Home() {
           <StatStrip />
         </div>
       </section>
+
+      <section className="bg-secondary/60 py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-5 lg:px-8">
+          <SectionHeading eyebrow="What we stand for" title="Six commitments" />
+          <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {pillars.map((p, i) => (
+              <Reveal key={p.title} delay={(i % 3) * 0.08}>
+                <div className="h-full rounded-2xl border border-border bg-card p-7 shadow-soft">
+                  <h3 className="text-xl">{p.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{p.body}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
 
       <section className="bg-secondary/60 py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-5 lg:px-8">

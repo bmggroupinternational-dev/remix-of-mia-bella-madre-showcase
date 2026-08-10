@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from "lucide-react";
+import { BookNowButton } from "@/components/BookingModal";
 import { navLinks, site } from "@/lib/site";
 
 export function Footer() {
@@ -65,12 +66,14 @@ export function Footer() {
                 {site.address.city}, {site.address.country}
               </span>
             </li>
-            <li className="flex gap-3">
-              <Phone size={17} className="mt-0.5 shrink-0 text-primary" />
-              <a href={`tel:${site.phone}`} className="hover:text-primary">
-                {site.phoneDisplay}
-              </a>
-            </li>
+            {site.phones.map((p) => (
+              <li key={p.tel} className="flex gap-3">
+                <Phone size={17} className="mt-0.5 shrink-0 text-primary" />
+                <a href={`tel:${p.tel}`} className="hover:text-primary">
+                  {p.display}
+                </a>
+              </li>
+            ))}
             <li className="flex gap-3">
               <Mail size={17} className="mt-0.5 shrink-0 text-primary" />
               <a href={`mailto:${site.email}`} className="break-all hover:text-primary">
@@ -85,13 +88,9 @@ export function Footer() {
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
             Studio and one bedroom apartments available for nightly, weekly and long stays.
           </p>
-          <Link
-            to="/contact"
-            hash="book"
-            className="mt-5 inline-flex min-h-11 items-center rounded-full bg-accent px-6 text-sm font-semibold text-accent-foreground shadow-soft transition-transform hover:-translate-y-0.5"
-          >
+          <BookNowButton className="mt-5 inline-flex min-h-11 items-center rounded-full bg-accent px-6 text-sm font-semibold text-accent-foreground shadow-soft transition-transform hover:-translate-y-0.5">
             Book Your Stay
-          </Link>
+          </BookNowButton>
         </div>
       </div>
 
