@@ -1,6 +1,7 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { BookNowButton } from "@/components/BookingModal";
 import { navLinks, site } from "@/lib/site";
 
 export function Navbar() {
@@ -78,13 +79,7 @@ export function Navbar() {
         </ul>
 
         <div className="flex items-center gap-2">
-          <Link
-            to="/contact"
-            hash="book"
-            className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-glow sm:inline-flex"
-          >
-            Book Now
-          </Link>
+          <BookNowButton className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-glow sm:inline-flex" />
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
@@ -115,13 +110,7 @@ export function Navbar() {
               </li>
             ))}
           </ul>
-          <Link
-            to="/contact"
-            hash="book"
-            className="mt-5 flex min-h-11 items-center justify-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground"
-          >
-            Book Now
-          </Link>
+          <BookNowButton className="mt-5 flex min-h-11 w-full items-center justify-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground" />
           <p className="mt-4 text-center text-xs text-muted-foreground">
             {site.address.area}, {site.address.city}
           </p>
