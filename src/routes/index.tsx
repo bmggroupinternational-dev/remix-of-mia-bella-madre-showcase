@@ -13,6 +13,7 @@ import {
   WhyChooseUs,
 } from "@/components/sections";
 import { BookingForm } from "@/components/BookingForm";
+import { BookNowButton } from "@/components/BookingModal";
 import { galleryImages, images } from "@/lib/content";
 import { site } from "@/lib/site";
 import heroAsset from "@/assets/hero-exterior.jpg.asset.json";
@@ -61,6 +62,33 @@ export const Route = createFileRoute("/")({
   }),
   component: Home,
 });
+
+const pillars = [
+  {
+    title: "Luxury",
+    body: "Considered materials, warm lighting and furniture chosen for how it feels, not only how it looks.",
+  },
+  {
+    title: "Privacy",
+    body: "Your own front door, your own kitchen, your own rhythm — with service that stays discreet.",
+  },
+  {
+    title: "Comfort",
+    body: "King beds, quality linen, silent air conditioning and reliably hot water, every single day.",
+  },
+  {
+    title: "Modern Finishes",
+    body: "Contemporary bathrooms, fitted kitchens and smart entertainment throughout the property.",
+  },
+  {
+    title: "Excellent Location",
+    body: "Msamvu places you minutes from Morogoro's centre, transport links and daily essentials.",
+  },
+  {
+    title: "Professional Hospitality",
+    body: "A trained resident team delivering internationally minded service with genuine Tanzanian warmth.",
+  },
+];
 
 function Hero() {
   const ref = useRef<HTMLElement>(null);
