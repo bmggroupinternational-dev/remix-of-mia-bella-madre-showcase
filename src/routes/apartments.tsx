@@ -46,7 +46,7 @@ function ApartmentsPage() {
           <SectionHeading
             eyebrow="Amenities"
             title="Everything included, nothing to arrange"
-            description="Sixteen thoughtful comforts across every apartment and the wider property."
+            description="Nine thoughtful comforts across every apartment and the wider property."
           />
           <div className="mt-14">
             <AmenityGrid />

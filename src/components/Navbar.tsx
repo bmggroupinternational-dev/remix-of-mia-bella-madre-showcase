@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { BookNowButton } from "@/components/BookingModal";
 import { navLinks, site } from "@/lib/site";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -35,29 +36,17 @@ export function Navbar() {
         className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-8"
       >
         <Link to="/" className="flex min-w-0 items-center gap-3">
+          <img
+            src={logoAsset.url}
+            alt="Mia Bella Madre Apartments"
+            className={`h-9 w-auto shrink-0 sm:h-11 ${solid ? "" : "rounded-lg bg-card/90 px-2 py-1 backdrop-blur"}`}
+          />
           <span
-            className={`grid size-10 shrink-0 place-items-center rounded-full font-display text-lg transition-colors ${
-              solid ? "bg-primary text-primary-foreground" : "bg-card/25 text-card backdrop-blur"
+            className={`hidden text-[0.65rem] uppercase tracking-[0.2em] sm:block ${
+              solid ? "text-muted-foreground" : "text-card/80"
             }`}
-            aria-hidden="true"
           >
-            M
-          </span>
-          <span className="min-w-0">
-            <span
-              className={`block truncate font-display text-base leading-tight sm:text-lg ${
-                solid ? "text-foreground" : "text-card"
-              }`}
-            >
-              Mia Bella Madre
-            </span>
-            <span
-              className={`hidden text-[0.65rem] uppercase tracking-[0.2em] sm:block ${
-                solid ? "text-muted-foreground" : "text-card/80"
-              }`}
-            >
-              Serviced Apartments
-            </span>
+            Serviced Apartments
           </span>
         </Link>
 
