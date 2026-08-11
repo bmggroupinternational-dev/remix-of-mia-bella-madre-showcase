@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import { BookNowButton } from "@/components/BookingModal";
 import { navLinks, site } from "@/lib/site";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 export function Footer() {
   return (

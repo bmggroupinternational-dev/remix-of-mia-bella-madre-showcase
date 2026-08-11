@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { BookNowButton } from "@/components/BookingModal";
 import { navLinks, site } from "@/lib/site";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
