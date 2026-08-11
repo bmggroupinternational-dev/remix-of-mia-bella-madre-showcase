@@ -8,15 +8,7 @@ export function Footer() {
     <footer className="border-t border-border bg-card">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 lg:grid-cols-4 lg:px-8">
         <div>
-          <div className="flex items-center gap-3">
-            <span
-              className="grid size-10 place-items-center rounded-full bg-primary font-display text-lg text-primary-foreground"
-              aria-hidden="true"
-            >
-              M
-            </span>
-            <span className="font-display text-lg">Mia Bella Madre</span>
-          </div>
+          <img src={logoAsset.url} alt="Mia Bella Madre Apartments" className="h-12 w-auto" />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
             {site.tagline}. {site.counts.total} fully furnished apartments in{" "}
             {site.address.area}, {site.address.city}.

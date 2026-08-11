@@ -108,22 +108,15 @@ export const apartments: Apartment[] = [
 ];
 
 export const amenities = [
-  { name: "Free WiFi", icon: "Wifi" },
+  { name: "Wi-Fi", icon: "Wifi" },
+  { name: "Subscription TV", icon: "Tv" },
+  { name: "On Site Parking", icon: "Car" },
   { name: "Air Conditioning", icon: "Wind" },
-  { name: "Fully Equipped Kitchen", icon: "CookingPot" },
-  { name: "Housekeeping", icon: "Sparkles" },
-  { name: "Smart TV", icon: "Tv" },
-  { name: "Free Parking", icon: "Car" },
   { name: "24-hour Security", icon: "ShieldCheck" },
-  { name: "Children's Playground", icon: "TreePalm" },
-  { name: "Luxury Bathroom", icon: "ShowerHead" },
-  { name: "Kitchenette", icon: "Utensils" },
-  { name: "Laundry Facilities", icon: "WashingMachine" },
-  { name: "Hot Water", icon: "Droplets" },
-  { name: "Comfortable Bedding", icon: "BedDouble" },
-  { name: "Workspace", icon: "Laptop" },
-  { name: "Safe", icon: "Lock" },
-  { name: "Modern Interior", icon: "Armchair" },
+  { name: "Outdoor Swimming Pool", icon: "Waves" },
+  { name: "Tennis Court", icon: "Trophy" },
+  { name: "On Site Laundry Service", icon: "WashingMachine" },
+  { name: "Daily Housekeeping", icon: "Sparkles" },
 ] as const;
 
 export const whyChooseUs = [
