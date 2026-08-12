@@ -74,15 +74,11 @@ export const apartments: Apartment[] = [
       "An intelligently composed open-plan retreat where sleeping, dining and working spaces flow into one another — ideal for solo travellers and couples.",
     features: [
       "Modern studio layout",
-      "King bed",
+      "Queen bed",
       "Fully equipped kitchenette",
-      "Smart TV",
-      "High-speed WiFi",
-      "Air conditioning",
-      "Luxury bathroom",
-      "Work desk",
+      "\n\nSmart TV",
+      "Luxury bathroom with bathtub",
       "In-room safe",
-      "Daily housekeeping",
     ],
   },
   {
@@ -97,11 +93,10 @@ export const apartments: Apartment[] = [
       "Living room",
       "Full kitchen",
       "Dining area",
-      "King bed",
-      "Smart TV",
-      "Air conditioning",
-      "Luxury bathroom",
-      "Balcony (if available)",
+      "Double bed",
+      "\n\nSmart TV",
+      "Ironing board & Iron",
+      "Balcony (limited suites)",
       "Ideal for long stays",
     ],
   },
@@ -122,14 +117,14 @@ export const amenities = [
   { name: "Hot Water", icon: "Droplets" },
   { name: "Comfortable Bedding", icon: "BedDouble" },
   { name: "Workspace", icon: "Laptop" },
-  { name: "Safe", icon: "Lock" },
+  { name: " Safe Box", icon: "Lock" },
   { name: "Modern Interior", icon: "Armchair" },
 ] as const;
 
 export const whyChooseUs = [
   {
     title: "Prime Location",
-    body: "Minutes from Msamvu bus terminal, Morogoro town centre, shops and hospitals.",
+    body: "Minutes from Msamvu bus terminal, Morogoro town centre, SGR station and shops.",
     icon: "MapPin",
   },
   {
@@ -164,7 +159,7 @@ export const whyChooseUs = [
   },
   {
     title: "Professional Hospitality",
-    body: "A trained team delivering warm, discreet, internationally minded service.",
+    body: "A trained team delivering warm, discreet, and committed service.",
     icon: "HandHeart",
   },
   {
@@ -223,18 +218,18 @@ export const galleryImages: GalleryImage[] = [
 
 export const testimonials = [
   {
-    quote: "A hidden gem in Morogoro. Beautiful apartments with exceptional service.",
-    name: "Amina H.",
-    role: "Business traveller, Dar es Salaam",
+    quote: "Apartments are brand new, luxurious and with all needed comforts.",
+    name: "Giacomo G.",
+    role: "Holiday Travellers, Switzerland",
   },
   {
-    quote: "The apartment was spotless, modern and perfect for our family.",
-    name: "The Mushi Family",
-    role: "Holiday guests",
+    quote: "Excelled accommodations.",
+    name: "Ilkay Exquisite",
+    role: "Local Guide, Dar es Salaam",
   },
   {
-    quote: "Will definitely stay again.",
-    name: "Daniel K.",
-    role: "Consultant, Arusha",
+    quote: "We had a wonderful stay and would happily recommend this place to anyone visiting.",
+    name: "Avain",
+    role: "Bolt Consultant , Dar es Salaam",
   },
 ];

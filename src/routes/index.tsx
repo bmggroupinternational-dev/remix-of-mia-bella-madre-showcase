@@ -74,7 +74,7 @@ const pillars = [
   },
   {
     title: "Comfort",
-    body: "King beds, quality linen, silent air conditioning and reliably hot water, every single day.",
+    body: "Queen sized beds, quality linen, silent air conditioning and reliably hot water, every single day.",
   },
   {
     title: "Modern Finishes",
