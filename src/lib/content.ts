@@ -78,6 +78,7 @@ export const apartments: Apartment[] = [
       "Fully equipped kitchenette",
       "\n\nSmart TV",
       "Luxury bathroom with bathtub",
+      "Ironing table & Iron",
       "In-room safe",
     ],
   },
@@ -112,13 +113,13 @@ export const amenities = [
   { name: "24-hour Security", icon: "ShieldCheck" },
   { name: "Children's Playground", icon: "TreePalm" },
   { name: "Luxury Bathroom", icon: "ShowerHead" },
-  { name: "Kitchenette", icon: "Utensils" },
+  { name: "Outdoor Swimming Pool", icon: "Waves" },
   { name: "Laundry Facilities", icon: "WashingMachine" },
   { name: "Hot Water", icon: "Droplets" },
   { name: "Comfortable Bedding", icon: "BedDouble" },
   { name: "Workspace", icon: "Laptop" },
   { name: " Safe Box", icon: "Lock" },
-  { name: "Modern Interior", icon: "Armchair" },
+  { name: "Tennis Court", icon: "Trophy" },
 ] as const;
 
 export const whyChooseUs = [
