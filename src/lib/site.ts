@@ -14,7 +14,7 @@ export const site = {
   phoneDisplay: "+255 725 478 478",
   phone: "+255725478478",
   whatsapp: "255725478478",
-  email: "stay@miabellamadre.co.tz",
+  email: "miabellamadre0@gmail.com",
   hours: [
     { label: "Reception", value: "Open 24 hours, 7 days a week" },
     { label: "Check-in", value: "From 14:00" },

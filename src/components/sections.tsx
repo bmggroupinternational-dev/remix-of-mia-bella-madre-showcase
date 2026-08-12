@@ -139,7 +139,7 @@ export function StatStrip() {
 }
 
 export function LocationPanel() {
-  const nearby = ["Town Centre", "Restaurants", "Shopping", "Transport", "Hospitals", "Universities"];
+  const nearby = ["Town Centre", "Restaurants", "Shopping", "SGR Station", "Conference Venues", "Bus Terminal"];
   return (
     <div className="grid items-start gap-10 lg:grid-cols-2">
       <Reveal>
