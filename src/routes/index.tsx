@@ -192,7 +192,7 @@ function Home() {
                 Guests arrive to a fully prepared apartment — beds made, kitchen stocked with the
                 essentials, WiFi connected — and settle in within minutes. Housekeeping visits daily,
                 security is present around the clock and our team is a phone call away, whether you
-                need an airport transfer or a recommendation for dinner in town.
+                need an SGR transfer or a recommendation for dinner in town.
               </p>
               <BookNowButton className="mt-7 inline-flex min-h-11 items-center rounded-full border border-border px-6 text-sm font-semibold transition-colors hover:border-primary hover:text-primary">
                 Enquire about a stay
