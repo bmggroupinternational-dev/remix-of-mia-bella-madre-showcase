@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import { BookNowButton } from "@/components/BookingModal";
 import { navLinks, site } from "@/lib/site";
+import logoAsset from "@/assets/mia-logo.png.asset.json";
 
 export function Footer() {
   return (
@@ -95,6 +96,14 @@ export function Footer() {
       </div>
 
       <div className="border-t border-border">
+        <div className="mx-auto flex max-w-7xl justify-center px-5 pt-10">
+          <img
+            src={logoAsset.url}
+            alt={`${site.name} logo`}
+            loading="lazy"
+            className="h-16 w-auto sm:h-20"
+          />
+        </div>
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 py-6 text-xs text-muted-foreground sm:flex-row lg:px-8">
           <p>
             © {new Date().getFullYear()} {site.name}. All rights reserved.

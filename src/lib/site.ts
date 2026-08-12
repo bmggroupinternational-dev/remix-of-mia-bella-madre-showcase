@@ -27,7 +27,7 @@ export const site = {
     oneBedroom: 11,
   },
   mapEmbed:
-    "https://www.google.com/maps?q=Msamvu,+Morogoro,+Tanzania&output=embed",
+    "https://www.google.com/maps?q=MIA+BELLA+MADRE+Apartments,+Morogoro,+Tanzania&output=embed",
 } as const;
 
 export function whatsappLink(message: string) {

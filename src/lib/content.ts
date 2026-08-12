@@ -114,13 +114,12 @@ export const amenities = [
   { name: "Children's Playground", icon: "TreePalm" },
   { name: "Luxury Bathroom", icon: "ShowerHead" },
   { name: "Outdoor Swimming Pool", icon: "Waves" },
-
   { name: "Laundry Facilities", icon: "WashingMachine" },
   { name: "Hot Water", icon: "Droplets" },
   { name: "Comfortable Bedding", icon: "BedDouble" },
   { name: "Workspace", icon: "Laptop" },
   { name: " Safe Box", icon: "Lock" },
-  { name: "Modern Interior", icon: "Armchair" },
+  { name: "Tennis Court", icon: "Trophy" },
 ] as const;
 
 export const whyChooseUs = [
