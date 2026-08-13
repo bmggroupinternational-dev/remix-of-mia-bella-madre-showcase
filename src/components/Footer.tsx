@@ -101,7 +101,7 @@ export function Footer() {
             src={logoAsset.url}
             alt={`${site.name} logo`}
             loading="lazy"
-            className="h-16 w-auto sm:h-20"
+            className="h-28 w-auto sm:h-40 lg:h-48"
           />
         </div>
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 py-6 text-xs text-muted-foreground sm:flex-row lg:px-8">
