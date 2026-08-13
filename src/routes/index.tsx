@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion, useScroll, useTransform } from "motion/react";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { GalleryGrid } from "@/components/GalleryGrid";
@@ -90,22 +90,40 @@ const pillars = [
   },
 ];
 
+const heroSlides = [
+  { src: heroImg, alt: "Mia Bella Madre Apartments illuminated at night in Msamvu, Morogoro" },
+  { src: images.property, alt: "Apartment facade with glass balconies and tiled courtyard" },
+  { src: images.oneBed, alt: "One bedroom apartment living room at Mia Bella Madre" },
+];
+
 function Hero() {
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "18%"]);
   const fade = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+  const [slide, setSlide] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => setSlide((s) => (s + 1) % heroSlides.length), 6000);
+    return () => clearInterval(id);
+  }, []);
 
   return (
     <section ref={ref} className="relative flex min-h-dvh items-center overflow-hidden">
       <motion.div style={{ y }} className="absolute inset-0 -z-10">
-        <img
-          src={heroImg}
-          alt="Mia Bella Madre Apartments illuminated at night in Msamvu, Morogoro"
-          width={1920}
-          height={1280}
-          className="size-full scale-110 object-cover"
-        />
+        {heroSlides.map((s, i) => (
+          <motion.img
+            key={s.src}
+            src={s.src}
+            alt={s.alt}
+            width={1920}
+            height={1280}
+            initial={false}
+            animate={{ opacity: i === slide ? 1 : 0, scale: i === slide ? 1.1 : 1.16 }}
+            transition={{ opacity: { duration: 1.6 }, scale: { duration: 7, ease: "linear" } }}
+            className="absolute inset-0 size-full object-cover"
+          />
+        ))}
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/70 via-foreground/45 to-foreground/80" />
       </motion.div>
 
