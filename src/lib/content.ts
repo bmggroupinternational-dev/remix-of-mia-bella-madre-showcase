@@ -220,7 +220,7 @@ export const testimonials = [
     role: "Holiday Travellers, Switzerland",
   },
   {
-    quote: "Excelled accommodations.",
+    quote: "Excellent accommodations.",
     name: "Ilkay Exquisite",
     role: "Local Guide, Dar es Salaam",
   },
