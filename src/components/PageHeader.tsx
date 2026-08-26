@@ -18,7 +18,7 @@ export function PageHeader({ eyebrow, title, description, image, imageAlt }: Pro
       <div className="mx-auto w-full max-w-7xl px-5 pb-16 pt-40 lg:px-8">
         <Reveal>
           <p className="text-xs uppercase tracking-[0.28em] text-card/80">{eyebrow}</p>
-          <h1 className="mt-4 max-w-3xl text-4xl leading-tight text-card sm:text-5xl lg:text-6xl">
+          <h1 className="gradient-heading mt-4 max-w-3xl text-4xl leading-tight sm:text-5xl lg:text-6xl">
             {title}
           </h1>
           {description ? (

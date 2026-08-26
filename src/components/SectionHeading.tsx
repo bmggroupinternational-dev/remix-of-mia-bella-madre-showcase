@@ -17,7 +17,7 @@ export function SectionHeading({ eyebrow, title, description, align = "center" }
       }
     >
       {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
-      <h2 className="mt-3 font-script text-4xl leading-[1.15] sm:text-5xl md:text-[3.25rem]">
+      <h2 className="gradient-heading mt-3 font-script text-4xl leading-[1.15] sm:text-5xl md:text-[3.25rem]">
         {title}
       </h2>
       {description ? (

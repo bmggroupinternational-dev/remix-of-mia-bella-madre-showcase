@@ -143,7 +143,7 @@ function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 max-w-3xl text-4xl leading-[1.08] text-card sm:text-6xl lg:text-7xl"
+          className="gradient-heading mt-6 max-w-3xl text-4xl leading-[1.08] sm:text-6xl lg:text-7xl"
         >
           Luxury Serviced Apartments
         </motion.h1>

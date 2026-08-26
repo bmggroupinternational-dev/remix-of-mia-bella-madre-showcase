@@ -150,6 +150,13 @@
   border: 1px solid color-mix(in oklab, var(--color-border) 80%, transparent);
 }
 
+@utility gradient-heading {
+  background-image: linear-gradient(90deg, var(--color-accent), var(--color-primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 @utility eyebrow {
   font-family: var(--font-sans);
   text-transform: uppercase;
