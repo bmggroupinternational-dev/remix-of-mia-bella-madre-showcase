@@ -14,6 +14,7 @@ import {
 } from "@/components/sections";
 import { BookingForm } from "@/components/BookingForm";
 import { BookNowButton } from "@/components/BookingModal";
+import { HibiscusOutline } from "@/components/HibiscusOutline";
 import { galleryImages, images } from "@/lib/content";
 import { site } from "@/lib/site";
 import heroAsset from "@/assets/hero-exterior.jpg.asset.json";
@@ -131,11 +132,12 @@ function Hero() {
         style={{ opacity: fade }}
         className="mx-auto w-full max-w-7xl px-5 pb-24 pt-36 lg:px-8"
       >
+        <HibiscusOutline className="pointer-events-none absolute -ml-8 -mt-12 size-44 text-accent/30 sm:size-56" />
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15 }}
-          className="text-xs uppercase tracking-[0.32em] text-card/85"
+          className="relative text-xs uppercase tracking-[0.32em] text-card/85"
         >
           {site.address.area} · {site.address.city} · {site.address.country}
         </motion.p>
@@ -143,7 +145,7 @@ function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className="gradient-heading mt-6 max-w-3xl text-4xl leading-[1.08] sm:text-6xl lg:text-7xl"
+          className="gradient-heading heading-on-image relative mt-6 max-w-3xl text-4xl leading-[1.08] sm:text-6xl lg:text-7xl"
         >
           Luxury Serviced Apartments
         </motion.h1>
@@ -151,7 +153,7 @@ function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.45 }}
-          className="mt-6 max-w-xl text-lg leading-relaxed text-card/90"
+          className="relative mt-6 max-w-xl text-lg leading-relaxed text-card/90"
         >
           Experience Comfort, Style &amp; Convenience in Morogoro.
         </motion.p>
@@ -159,7 +161,7 @@ function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.6 }}
-          className="mt-10 flex flex-wrap gap-3"
+          className="relative mt-10 flex flex-wrap gap-3"
         >
           <BookNowButton className="inline-flex min-h-12 items-center rounded-full bg-primary px-8 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5">
             Book Your Stay
