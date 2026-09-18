@@ -22,7 +22,7 @@ export function PageHeader({ eyebrow, title, description, image, imageAlt }: Pro
             <HibiscusOutline className="pointer-events-none absolute -left-8 -top-16 size-40 text-accent/30 sm:size-48" />
             <div className="relative">
               <p className="text-xs uppercase tracking-[0.28em] text-card/80">{eyebrow}</p>
-              <h1 className="gradient-heading mt-4 max-w-3xl text-4xl leading-tight sm:text-5xl lg:text-6xl">
+              <h1 className="gradient-heading heading-on-image mt-4 max-w-3xl text-4xl leading-tight sm:text-5xl lg:text-6xl">
                 {title}
               </h1>
               {description ? (

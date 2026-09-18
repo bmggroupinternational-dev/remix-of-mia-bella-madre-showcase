@@ -154,6 +154,12 @@
   color: var(--color-accent);
 }
 
+@utility heading-on-image {
+  text-shadow:
+    0 1px 0 color-mix(in oklab, var(--color-card) 85%, transparent),
+    0 3px 18px color-mix(in oklab, var(--color-foreground) 55%, transparent);
+}
+
 @utility eyebrow {
   font-family: var(--font-sans);
   text-transform: uppercase;
