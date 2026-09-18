@@ -132,7 +132,7 @@ function Hero() {
         style={{ opacity: fade }}
         className="mx-auto w-full max-w-7xl px-5 pb-24 pt-36 lg:px-8"
       >
-        <HibiscusOutline className="pointer-events-none absolute -ml-8 -mt-12 size-44 text-accent/30 sm:size-56" />
+        <HibiscusOutline className="pointer-events-none absolute -ml-8 -mt-12 size-44 text-accent/15 sm:size-56" />
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}

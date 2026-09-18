@@ -1,45 +1,61 @@
+import { useId } from "react";
+
 type HibiscusOutlineProps = {
   className?: string;
 };
 
 export function HibiscusOutline({ className = "" }: HibiscusOutlineProps) {
+  const maskId = useId();
+
   return (
     <svg
-      viewBox="0 0 180 180"
+      viewBox="0 0 220 240"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       aria-hidden="true"
     >
+      <defs>
+        <mask id={maskId}>
+          <rect width="220" height="240" fill="white" />
+          <path
+            d="M105 151 72 111l23 18-14-30 27 35M112 149l23-54-4 30 28-30-19 39 31-20-39 39M115 157l56 12-32 2 36 22-45-14 21 29-37-39M105 158l-17 56 3-34-24 35 14-45-29 25 38-42M100 154l-54 14 30-18-39 5 46-21-31 1 45 10"
+            fill="none"
+            stroke="black"
+            strokeWidth="8"
+            strokeLinecap="square"
+            strokeLinejoin="miter"
+          />
+        </mask>
+      </defs>
+
+      <g mask={`url(#${maskId})`} fill="currentColor">
+        <path d="M107 153C96 130 78 91 50 76c-13-7-28-5-34 6-4 7-3 15 2 22-9 10-5 25 6 36 18 19 49 26 78 20l11-3-6-4Z" />
+        <path d="M111 153c0-31 6-72 31-95 17-17 47-17 57-2 4 6 5 13 3 20 17 2 23 19 16 34-9 22-43 35-89 48l-18-5Z" />
+        <path d="M112 157c28-12 68-15 90 1 16 11 16 30 2 39-2 20-24 29-44 19-20-9-34-30-48-53v-6Z" />
+        <path d="M106 158c15 27 20 64 2 77-10 8-24 5-30-5-14 8-30-1-34-16-6-23 17-47 56-60l6 4Z" />
+        <path d="M101 153c-29 2-66 13-82 35-11 15-5 32 9 37 3 17 22 22 36 12 19-13 29-43 42-76l-5-8Z" />
+        <path d="m108 137 7 11 14 2-10 10 3 14-14-6-13 7 2-15-11-9 15-3 7-11Z" />
+      </g>
+
       <path
-        d="M89 88C65 78 47 58 50 39c3-17 20-24 34-14 9 7 12 22 9 40M89 88c9-25 27-43 45-42 17 1 26 16 18 31-6 12-21 19-41 18M89 88c25 5 45 20 47 38 2 17-12 28-28 22-13-5-22-20-24-40M89 88c-2 25-13 47-31 52-17 5-30-7-27-23 2-14 15-26 34-32M89 88C69 103 44 107 30 96 17 86 20 68 35 61c12-6 29-1 43 12"
+        d="M109 154C107 112 99 73 82 48 67 26 47 18 26 14"
         stroke="currentColor"
-        strokeWidth="2.2"
+        strokeWidth="4.5"
         strokeLinecap="round"
-        strokeLinejoin="round"
       />
       <path
-        d="M89 88c13 8 27 10 42 7M89 88c-9-14-12-28-8-43M89 88c-12 12-19 25-19 41M89 88c-15-3-29-10-39-22M89 88c5 12 15 21 29 27"
+        d="M83 49 70 36M72 35l-14 1M91 65l8-16M98 49l-1-13M62 29 52 19M48 21l-13-3M79 42l2-17"
         stroke="currentColor"
-        strokeWidth="1.3"
-        strokeLinecap="round"
-        opacity="0.7"
-      />
-      <path
-        d="M88 89c22 8 35 27 43 46"
-        stroke="currentColor"
-        strokeWidth="2.2"
+        strokeWidth="2.3"
         strokeLinecap="round"
       />
-      <path
-        d="M124 127c7 0 14 3 20 8M119 118c6-2 13-1 19 2M111 108c5-3 11-4 17-3"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-      />
-      <circle cx="145" cy="137" r="2.4" fill="currentColor" />
-      <circle cx="139" cy="132" r="1.8" fill="currentColor" />
-      <circle cx="149" cy="132" r="1.7" fill="currentColor" />
+      <circle cx="24" cy="14" r="6" fill="currentColor" />
+      <circle cx="34" cy="31" r="4.5" fill="currentColor" />
+      <circle cx="52" cy="19" r="4" fill="currentColor" />
+      <circle cx="64" cy="42" r="3.5" fill="currentColor" />
+      <circle cx="80" cy="24" r="5.5" fill="currentColor" />
+      <circle cx="97" cy="35" r="4.5" fill="currentColor" />
     </svg>
   );
 }
