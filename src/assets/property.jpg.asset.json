@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "260136e3-d759-4fda-9f31-f7ffae1321f0",
-  "project_id": "0c918074-bbfe-4d88-b06a-753108121e2a",
-  "url": "/__l5e/assets-v1/260136e3-d759-4fda-9f31-f7ffae1321f0/property-day.jpg",
-  "r2_key": "a/v1/0c918074-bbfe-4d88-b06a-753108121e2a/260136e3-d759-4fda-9f31-f7ffae1321f0/property-day.jpg",
-  "original_filename": "property-day.jpg",
-  "size": 2025366,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-09T06:49:55Z"
+  "created_at": "2026-08-09T06:49:55Z",
+  "original_filename": "property-day.jpg",
+  "project_id": "6885db63-68e2-4cc0-a260-4d9865f04932",
+  "r2_key": "a/v1/6885db63-68e2-4cc0-a260-4d9865f04932/260136e3-d759-4fda-9f31-f7ffae1321f0/property-day.jpg",
+  "size": 2025366,
+  "url": "/__l5e/assets-v1/260136e3-d759-4fda-9f31-f7ffae1321f0/property-day.jpg",
+  "version": 1
 }

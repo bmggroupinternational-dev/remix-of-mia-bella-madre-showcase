@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "246a584e-e420-41e8-9ee3-a66a64448068",
-  "project_id": "0c918074-bbfe-4d88-b06a-753108121e2a",
-  "url": "/__l5e/assets-v1/246a584e-e420-41e8-9ee3-a66a64448068/decor-plant-2.jpg",
-  "r2_key": "a/v1/0c918074-bbfe-4d88-b06a-753108121e2a/246a584e-e420-41e8-9ee3-a66a64448068/decor-plant-2.jpg",
-  "original_filename": "decor-plant-2.jpg",
-  "size": 2299060,
   "content_type": "image/png",
-  "created_at": "2026-08-09T06:57:15Z"
+  "created_at": "2026-08-09T06:57:15Z",
+  "original_filename": "decor-plant-2.jpg",
+  "project_id": "6885db63-68e2-4cc0-a260-4d9865f04932",
+  "r2_key": "a/v1/6885db63-68e2-4cc0-a260-4d9865f04932/246a584e-e420-41e8-9ee3-a66a64448068/decor-plant-2.jpg",
+  "size": 2299060,
+  "url": "/__l5e/assets-v1/246a584e-e420-41e8-9ee3-a66a64448068/decor-plant-2.jpg",
+  "version": 1
 }

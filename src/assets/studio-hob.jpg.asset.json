@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "e917c2bd-3e58-477c-95f9-c9a1996803f0",
-  "project_id": "0c918074-bbfe-4d88-b06a-753108121e2a",
-  "url": "/__l5e/assets-v1/e917c2bd-3e58-477c-95f9-c9a1996803f0/studio-hob.jpg",
-  "r2_key": "a/v1/0c918074-bbfe-4d88-b06a-753108121e2a/e917c2bd-3e58-477c-95f9-c9a1996803f0/studio-hob.jpg",
-  "original_filename": "studio-hob.jpg",
-  "size": 2032240,
   "content_type": "image/png",
-  "created_at": "2026-08-09T06:54:37Z"
+  "created_at": "2026-08-09T06:54:37Z",
+  "original_filename": "studio-hob.jpg",
+  "project_id": "6885db63-68e2-4cc0-a260-4d9865f04932",
+  "r2_key": "a/v1/6885db63-68e2-4cc0-a260-4d9865f04932/e917c2bd-3e58-477c-95f9-c9a1996803f0/studio-hob.jpg",
+  "size": 2032240,
+  "url": "/__l5e/assets-v1/e917c2bd-3e58-477c-95f9-c9a1996803f0/studio-hob.jpg",
+  "version": 1
 }

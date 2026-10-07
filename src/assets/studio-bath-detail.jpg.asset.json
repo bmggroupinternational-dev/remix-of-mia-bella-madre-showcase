@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "f7746161-035a-4c6f-85dd-b7194187f8ad",
-  "project_id": "0c918074-bbfe-4d88-b06a-753108121e2a",
-  "url": "/__l5e/assets-v1/f7746161-035a-4c6f-85dd-b7194187f8ad/studio-bath-detail.jpg",
-  "r2_key": "a/v1/0c918074-bbfe-4d88-b06a-753108121e2a/f7746161-035a-4c6f-85dd-b7194187f8ad/studio-bath-detail.jpg",
-  "original_filename": "studio-bath-detail.jpg",
-  "size": 2423999,
   "content_type": "image/png",
-  "created_at": "2026-08-09T06:54:45Z"
+  "created_at": "2026-08-09T06:54:45Z",
+  "original_filename": "studio-bath-detail.jpg",
+  "project_id": "6885db63-68e2-4cc0-a260-4d9865f04932",
+  "r2_key": "a/v1/6885db63-68e2-4cc0-a260-4d9865f04932/f7746161-035a-4c6f-85dd-b7194187f8ad/studio-bath-detail.jpg",
+  "size": 2423999,
+  "url": "/__l5e/assets-v1/f7746161-035a-4c6f-85dd-b7194187f8ad/studio-bath-detail.jpg",
+  "version": 1
 }

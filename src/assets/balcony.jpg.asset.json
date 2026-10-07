@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "98bf09f5-9103-4318-9e0c-e4c856230984",
-  "project_id": "0c918074-bbfe-4d88-b06a-753108121e2a",
-  "url": "/__l5e/assets-v1/98bf09f5-9103-4318-9e0c-e4c856230984/kitchen-living.jpg",
-  "r2_key": "a/v1/0c918074-bbfe-4d88-b06a-753108121e2a/98bf09f5-9103-4318-9e0c-e4c856230984/kitchen-living.jpg",
-  "original_filename": "kitchen-living.jpg",
-  "size": 2244900,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-09T06:52:51Z"
+  "created_at": "2026-08-09T06:52:51Z",
+  "original_filename": "kitchen-living.jpg",
+  "project_id": "6885db63-68e2-4cc0-a260-4d9865f04932",
+  "r2_key": "a/v1/6885db63-68e2-4cc0-a260-4d9865f04932/98bf09f5-9103-4318-9e0c-e4c856230984/kitchen-living.jpg",
+  "size": 2244900,
+  "url": "/__l5e/assets-v1/98bf09f5-9103-4318-9e0c-e4c856230984/kitchen-living.jpg",
+  "version": 1
 }
